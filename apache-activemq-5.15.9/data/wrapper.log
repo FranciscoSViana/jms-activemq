@@ -1,0 +1,514 @@
+STATUS | wrapper  | 2022/06/22 12:32:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/22 12:32:15 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/22 12:32:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/22 12:32:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/22 12:32:16 | 
+INFO   | jvm 1    | 2022/06/22 12:32:16 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/22 12:32:16 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/22 12:32:16 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=xod8ZqdVG4LLQlhC -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11308 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/22 12:32:16 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/22 12:32:16 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/22 12:32:16 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/22 12:32:16 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/22 12:32:16 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/22 12:32:16 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/22 12:32:16 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/22 12:32:16 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Wed Jun 22 12:32:16 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 12:32:17 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/22 12:32:18 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55493-1655911938848-0:1) is starting
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@40161b39{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55493-1655911938848-0:1) started
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/22 12:32:19 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:32:20 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/22 12:32:20 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/22 12:32:20 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/22 12:32:20 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:32:20 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/22 12:33:04 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2022/06/22 12:51:37 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55493-1655911938848-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55493-1655911938848-0:1) uptime 19 minutes
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55493-1655911938848-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Wed Jun 22 12:32:16 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 12:51:39 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/22 12:51:40 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/22 12:56:28 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/22 12:56:28 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/22 12:56:28 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/22 12:56:28 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/22 12:56:28 | 
+INFO   | jvm 1    | 2022/06/22 12:56:28 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/22 12:56:28 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/22 12:56:28 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=IoohaT0YcsDkXglR -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=11304 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/22 12:56:28 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/22 12:56:28 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/22 12:56:28 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/22 12:56:28 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/22 12:56:28 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/22 12:56:28 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/22 12:56:28 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/22 12:56:28 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@415d731b: startup date [Wed Jun 22 12:56:28 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 12:56:29 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/22 12:56:29 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55958-1655913390005-0:1) is starting
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1fef7618{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55958-1655913390005-0:1) started
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/22 12:56:30 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:56:31 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/22 12:56:31 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/22 12:56:31 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/22 12:56:31 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:56:31 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2022/06/22 12:56:46 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55958-1655913390005-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/22 12:56:46 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/22 12:56:47 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55958-1655913390005-0:1) uptime 17.285 seconds
+INFO   | jvm 1    | 2022/06/22 12:56:47 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55958-1655913390005-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/22 12:56:47 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@415d731b: startup date [Wed Jun 22 12:56:28 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 12:56:47 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/22 12:56:47 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/22 12:57:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/22 12:57:18 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/22 12:57:19 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/22 12:57:19 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/22 12:57:19 | 
+INFO   | jvm 1    | 2022/06/22 12:57:19 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/22 12:57:19 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/22 12:57:19 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=DwbaAvVFuk8scmV6 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9984 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/22 12:57:19 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/22 12:57:19 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/22 12:57:19 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/22 12:57:19 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/22 12:57:19 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/22 12:57:19 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/22 12:57:19 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/22 12:57:19 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Wed Jun 22 12:57:19 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55986-1655913440507-0:1) is starting
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@8573da0{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55986-1655913440507-0:1) started
+INFO   | jvm 1    | 2022/06/22 12:57:20 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 12:57:21 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+STATUS | wrapper  | 2022/06/22 13:01:30 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55986-1655913440507-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55986-1655913440507-0:1) uptime 4 minutes
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-55986-1655913440507-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Wed Jun 22 12:57:19 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 13:01:32 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/22 13:01:33 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/22 14:18:32 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/22 14:18:32 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/22 14:18:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/22 14:18:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/22 14:18:33 | 
+INFO   | jvm 1    | 2022/06/22 14:18:34 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/22 14:18:34 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/22 14:18:34 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=B7uizbg2zeD6Aui2 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=20916 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/22 14:18:34 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/22 14:18:34 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/22 14:18:34 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/22 14:18:34 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/22 14:18:34 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/22 14:18:34 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/22 14:18:36 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/22 14:18:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@415d731b: startup date [Wed Jun 22 14:18:36 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 14:18:37 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/22 14:18:37 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57296-1655918317953-0:1) is starting
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@57d473f3{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57296-1655918317953-0:1) started
+INFO   | jvm 1    | 2022/06/22 14:18:38 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/22 14:18:39 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/22 14:35:32 |  WARN | Transport Connection to: tcp://127.0.0.1:57649 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 14:36:13 |  WARN | Transport Connection to: tcp://127.0.0.1:57655 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 14:39:58 |  WARN | Transport Connection to: tcp://127.0.0.1:57668 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 14:50:59 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/06/22 15:25:10 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2022/06/22 15:26:48 |  WARN | Transport Connection to: tcp://127.0.0.1:57855 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 16:09:45 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2022/06/22 16:17:56 |  WARN | Transport Connection to: tcp://127.0.0.1:59793 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 16:48:11 |  INFO | Connector vm://localhost stopped
+INFO   | jvm 1    | 2022/06/22 22:24:34 |  WARN | Transport Connection to: tcp://127.0.0.1:59937 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 22:35:08 |  WARN | Transport Connection to: tcp://127.0.0.1:61648 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/22 22:39:47 |  WARN | Transport Connection to: tcp://127.0.0.1:61687 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2022/06/22 22:54:03 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/22 22:54:03 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57296-1655918317953-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57296-1655918317953-0:1) uptime 8 hours 35 minutes
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57296-1655918317953-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@415d731b: startup date [Wed Jun 22 14:18:36 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/22 22:54:04 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/22 22:54:05 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/23 15:49:55 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/23 15:49:56 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/23 15:50:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/23 15:50:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/23 15:50:02 | 
+INFO   | jvm 1    | 2022/06/23 15:50:03 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/23 15:50:03 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/23 15:50:03 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=kTZhwW_vrVrbCNa6 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5680 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/23 15:50:03 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/23 15:50:03 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/23 15:50:03 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/23 15:50:03 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/23 15:50:03 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/23 15:50:03 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/23 15:50:13 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/23 15:50:13 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@35a16e5c: startup date [Thu Jun 23 15:50:13 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 15:50:15 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/23 15:50:15 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/23 15:50:15 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57803-1656010215583-0:1) is starting
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1a299844{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57803-1656010215583-0:1) started
+INFO   | jvm 1    | 2022/06/23 15:50:16 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/23 15:50:17 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 15:50:17 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/23 15:50:17 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/23 15:50:17 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/23 15:50:17 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 15:50:18 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/23 16:25:10 |  WARN | Transport Connection to: tcp://127.0.0.1:58176 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:25:44 |  WARN | Transport Connection to: tcp://127.0.0.1:58154 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:29:26 |  WARN | Transport Connection to: tcp://127.0.0.1:58254 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:31:40 |  WARN | Transport Connection to: tcp://127.0.0.1:58267 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:34:57 |  WARN | Transport Connection to: tcp://127.0.0.1:58294 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:35:01 |  WARN | Transport Connection to: tcp://127.0.0.1:58298 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:36:11 |  WARN | Transport Connection to: tcp://127.0.0.1:58329 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 16:36:13 |  WARN | Transport Connection to: tcp://127.0.0.1:58325 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 17:24:06 |  WARN | Transport Connection to: tcp://127.0.0.1:58811 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 17:27:57 |  WARN | Transport Connection to: tcp://127.0.0.1:58857 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2022/06/23 17:35:37 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57803-1656010215583-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/23 17:35:37 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57803-1656010215583-0:1) uptime 1 hour 45 minutes
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-57803-1656010215583-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@35a16e5c: startup date [Thu Jun 23 15:50:13 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 17:35:38 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/23 17:35:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/23 19:04:29 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/23 19:04:29 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/23 19:04:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/23 19:04:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/23 19:04:34 | 
+INFO   | jvm 1    | 2022/06/23 19:04:34 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/23 19:04:34 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/23 19:04:34 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Kw8w5JLktpelqBcH -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=892 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/23 19:04:34 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/23 19:04:34 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/23 19:04:34 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/23 19:04:34 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/23 19:04:34 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/23 19:04:34 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/23 19:04:35 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/23 19:04:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Thu Jun 23 19:04:36 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 19:04:37 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63372-1656021878416-0:1) is starting
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/23 19:04:38 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@768d9bc2{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63372-1656021878416-0:1) started
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/23 19:04:39 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 19:04:40 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/23 19:04:40 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/23 19:04:40 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/23 19:04:40 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 19:04:41 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/23 19:27:50 |  WARN | Transport Connection to: tcp://127.0.0.1:63630 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 19:34:51 |  WARN | Transport Connection to: tcp://127.0.0.1:63682 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 19:40:33 |  WARN | Transport Connection to: tcp://127.0.0.1:63745 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2022/06/23 19:46:08 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/23 19:46:09 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63372-1656021878416-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/23 19:46:09 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/23 19:46:09 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/23 19:46:09 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/23 19:46:09 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63372-1656021878416-0:1) uptime 41 minutes
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63372-1656021878416-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Thu Jun 23 19:04:36 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 19:46:10 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/23 19:46:10 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/23 19:52:12 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/23 19:52:12 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/23 19:52:14 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/23 19:52:14 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/23 19:52:14 | 
+INFO   | jvm 1    | 2022/06/23 19:52:15 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/23 19:52:15 |   Heap sizes: current=129024k  free=120357k  max=1048576k
+INFO   | jvm 1    | 2022/06/23 19:52:15 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Tn5VtkDcmD_SxGpr -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=19028 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/23 19:52:15 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/23 19:52:15 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/23 19:52:15 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/23 19:52:15 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/23 19:52:15 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/23 19:52:15 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/23 19:52:15 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/23 19:52:15 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Thu Jun 23 19:52:15 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63956-1656024736505-0:1) is starting
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@25609c62{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63956-1656024736505-0:1) started
+INFO   | jvm 1    | 2022/06/23 19:52:16 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 19:52:17 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/23 20:01:11 |  WARN | Transport Connection to: tcp://127.0.0.1:63990 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:03:32 |  WARN | Transport Connection to: tcp://127.0.0.1:64132 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:04:33 |  WARN | Transport Connection to: tcp://127.0.0.1:64140 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:19:05 |  WARN | Transport Connection to: tcp://127.0.0.1:64290 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:22:33 |  WARN | Transport Connection to: tcp://127.0.0.1:64352 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:54:09 |  WARN | Transport Connection to: tcp://127.0.0.1:64374 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2022/06/23 20:58:22 |  WARN | 
+INFO   | jvm 1    | 2022/06/23 20:58:22 | org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)[spring-webmvc-4.3.18.RELEASE.jar:4.3.18.RELEASE]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)[spring-webmvc-4.3.18.RELEASE.jar:4.3.18.RELEASE]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)[tomcat-servlet-api-8.0.53.jar:]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)[spring-webmvc-4.3.18.RELEASE.jar:4.3.18.RELEASE]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)[tomcat-servlet-api-8.0.53.jar:]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.15.9.jar:5.15.9]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-4.3.18.RELEASE.jar:4.3.18.RELEASE]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)[spring-web-4.3.18.RELEASE.jar:4.3.18.RELEASE]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/workspaces/ws-alura/jms-activemq/apache-activemq-5.15.9/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:542)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.Server.handle(Server.java:499)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:258)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)[jetty-all-9.2.26.v20180806.jar:9.2.26.v20180806]
+INFO   | jvm 1    | 2022/06/23 20:58:22 | 	at java.base/java.lang.Thread.run(Thread.java:832)[:]
+INFO   | jvm 1    | 2022/06/23 21:07:41 |  WARN | Transport Connection to: tcp://127.0.0.1:64870 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2022/06/23 21:13:08 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63956-1656024736505-0:1) is shutting down
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63956-1656024736505-0:1) uptime 1 hour 20 minutes
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-63956-1656024736505-0:1) is shutdown
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@642a645d: startup date [Thu Jun 23 19:52:15 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 21:13:09 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2022/06/23 21:13:10 | <-- Wrapper Stopped
+STATUS | wrapper  | 2022/06/23 21:13:27 | --> Wrapper Started as Console
+STATUS | wrapper  | 2022/06/23 21:13:27 | Launching a JVM...
+INFO   | jvm 1    | 2022/06/23 21:13:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2022/06/23 21:13:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2022/06/23 21:13:29 | 
+INFO   | jvm 1    | 2022/06/23 21:13:29 | Java Runtime: Oracle Corporation 14 C:\Program Files\Java\jdk-14
+INFO   | jvm 1    | 2022/06/23 21:13:29 |   Heap sizes: current=129024k  free=119333k  max=1048576k
+INFO   | jvm 1    | 2022/06/23 21:13:29 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=GyrLOtrNUT8_dqS1 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=20588 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2022/06/23 21:13:29 | Extensions classpath:
+INFO   | jvm 1    | 2022/06/23 21:13:29 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2022/06/23 21:13:29 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2022/06/23 21:13:29 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2022/06/23 21:13:29 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2022/06/23 21:13:29 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2022/06/23 21:13:29 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2022/06/23 21:13:29 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6f44980f: startup date [Thu Jun 23 21:13:29 BRT 2022]; root of context hierarchy
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | PListStore:[C:\workspaces\ws-alura\jms-activemq\apache-activemq-5.15.9\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-65035-1656029611394-0:1) is starting
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Listening for connections at: tcp://FRANCISCO-VIANA:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Listening for connections at: amqp://FRANCISCO-VIANA:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Listening for connections at: stomp://FRANCISCO-VIANA:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Listening for connections at: mqtt://FRANCISCO-VIANA:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@4c6f8d46{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Listening for connections at ws://FRANCISCO-VIANA:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Connector ws started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | Apache ActiveMQ 5.15.9 (localhost, ID:FRANCISCO-VIANA-65035-1656029611394-0:1) started
+INFO   | jvm 1    | 2022/06/23 21:13:31 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2022/06/23 21:13:32 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 21:13:32 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2022/06/23 21:13:32 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2022/06/23 21:13:32 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2022/06/23 21:13:33 |  INFO | No Spring WebApplicationInitializer types detected on classpath
+INFO   | jvm 1    | 2022/06/23 21:13:33 |  INFO | jolokia-agent: Using policy access restrictor classpath:/jolokia-access.xml
+INFO   | jvm 1    | 2022/06/23 21:16:49 |  WARN | Transport Connection to: tcp://127.0.0.1:65085 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2022/06/23 21:16:57 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2022/06/23 21:16:57 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2022/06/23 21:16:57 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2022/06/23 21:16:57 | <-- Wrapper Stopped
